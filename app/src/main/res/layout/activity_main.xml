@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.melo.scrollview_recyclerview_conflect.CustomScrollview xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.melo.scrollview_recyclerview_conflect.MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#aa0000"/>
+        <com.melo.scrollview_recyclerview_conflect.RecyclerCoverFlow
+            android:id="@+id/list"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="#00aa00"/>
+
+    </LinearLayout>
+</com.melo.scrollview_recyclerview_conflect.CustomScrollview>
